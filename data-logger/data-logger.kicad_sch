@@ -1503,7 +1503,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 104.14 128.27 0)
+		(at 290.83 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1512,7 +1512,7 @@
 		(fields_autoplaced yes)
 		(uuid "9eef91ea-9bb1-488a-acbf-8dab0086fc1d")
 		(property "Reference" "U2"
-			(at 106.2833 115.57 0)
+			(at 292.9733 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1521,7 @@
 			)
 		)
 		(property "Value" "MAX31855KASA"
-			(at 106.2833 118.11 0)
+			(at 292.9733 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1530,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 106.68 138.43 0)
+			(at 293.37 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +1541,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 106.68 140.97 0)
+			(at 293.37 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1551,7 @@
 			)
 		)
 		(property "Description" "Cold Junction K-type Thermocouple Interface, SPI, SOIC-8"
-			(at 106.68 135.89 0)
+			(at 293.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
