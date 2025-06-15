@@ -2182,7 +2182,7 @@
 		(descr "Terminal Block Phoenix MPT-0,5-2-2.54, 2 pins, pitch 2.54mm, size 5.54x6.2mm, drill diameter 1.1mm, pad diameter 2.2mm, http://www.mouser.com/ds/2/324/ItemDetail_1725656-920552.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MPT-0,5-2-2.54 pitch 2.54mm size 5.54x6.2mm drill 1.1mm pad 2.2mm")
 		(property "Reference" "J3"
-			(at 1.27 -4.22 90)
+			(at -1.524 -4.1855 90)
 			(layer "F.SilkS")
 			(uuid "8da61492-8b89-45e4-8536-b7ecbeebe81d")
 			(effects
@@ -3574,7 +3574,7 @@
 		(descr "Terminal Block Phoenix MPT-0,5-2-2.54, 2 pins, pitch 2.54mm, size 5.54x6.2mm, drill diameter 1.1mm, pad diameter 2.2mm, http://www.mouser.com/ds/2/324/ItemDetail_1725656-920552.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MPT-0,5-2-2.54 pitch 2.54mm size 5.54x6.2mm drill 1.1mm pad 2.2mm")
 		(property "Reference" "J2"
-			(at 1.27 -4.22 90)
+			(at -1.524 -4.1855 90)
 			(layer "F.SilkS")
 			(uuid "130e9545-ca60-4f91-bb23-650c5e748c6c")
 			(effects
@@ -11759,7 +11759,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.43 90)
+			(at -0.14058 1.524 90)
 			(layer "F.SilkS")
 			(uuid "8068f703-4ee1-498f-ba5f-d559b4884102")
 			(effects
@@ -12263,7 +12263,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.43 90)
+			(at 0.14058 1.524 90)
 			(layer "F.SilkS")
 			(uuid "fd1f758d-719b-4af3-8be8-3960a0951edd")
 			(effects
@@ -12464,7 +12464,7 @@
 		(descr "Terminal Block Phoenix MPT-0,5-2-2.54, 2 pins, pitch 2.54mm, size 5.54x6.2mm, drill diameter 1.1mm, pad diameter 2.2mm, http://www.mouser.com/ds/2/324/ItemDetail_1725656-920552.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MPT-0,5-2-2.54 pitch 2.54mm size 5.54x6.2mm drill 1.1mm pad 2.2mm")
 		(property "Reference" "J1"
-			(at 1.27 -4.22 90)
+			(at -1.524 -4.1855 90)
 			(layer "F.SilkS")
 			(uuid "6bf52630-9993-437c-ab56-3b4ac5521027")
 			(effects
@@ -14139,7 +14139,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 -1.43 90)
+			(at 0 1.27 90)
 			(layer "F.SilkS")
 			(uuid "1b980b6e-4b10-44fc-96cf-9715311f418c")
 			(effects
@@ -14569,6 +14569,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "R-\nY+"
+		(at 108.966 109.728 0)
+		(layer "F.SilkS")
+		(uuid "5206b631-4345-4770-b433-cf3ef51186e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 155.194 100.33 0)
 		(layer "F.SilkS")
@@ -14606,7 +14618,7 @@
 		)
 	)
 	(gr_text "R-\nY+"
-		(at 96.774 109.728 0)
+		(at 108.966 124.968 0)
 		(layer "F.SilkS")
 		(uuid "8c5c0910-861e-4eb9-8c55-9bd8873959d2")
 		(effects
@@ -14657,6 +14669,18 @@
 		(at 115.57 81.788 90)
 		(layer "F.SilkS")
 		(uuid "bda44f8b-df10-46d2-968b-0c9d4d2a06e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "R-\nY+"
+		(at 108.966 117.348 0)
+		(layer "F.SilkS")
+		(uuid "c0b177da-cf56-4d35-819b-7399756cb2b3")
 		(effects
 			(font
 				(size 1 1)
